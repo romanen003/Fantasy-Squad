@@ -1,0 +1,29 @@
+.Loading {
+    background: #5B24A2 url('../../images/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position-x: 45%;
+    margin: 0 auto;
+}
+
+.Loading__Loader {
+    height: 120px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+
+.Loading__svg {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

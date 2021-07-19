@@ -1,0 +1,20 @@
+.Status {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.Status_online {
+    background: #5ACE5A;
+    box-shadow: 0 0 10px #5ACE5A, 0 0 10px #5ACE5A;
+}
+
+.Status_offline {
+    background: #ED5B56;
+    box-shadow: 0 0 10px #ED5B56, 0 0 10px #ED5B56;
+}
+
+.Status_private {
+    background: #5ACE5A;
+    box-shadow: 0 0 10px #5ACE5A, 0 0 10px #5ACE5A;
+}

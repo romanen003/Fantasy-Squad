@@ -1,0 +1,45 @@
+.LeaderBoardTime {
+    padding: 0 40px 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.LeaderBoardTime:after {
+    background: #EDEFF1;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.LeaderBoardTime__timer {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.LeaderBoardTime__header {
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.LeaderBoardTime__period {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.LeaderBoardTime__time {
+    margin-left: 6px;
+}

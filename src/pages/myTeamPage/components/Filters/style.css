@@ -1,0 +1,48 @@
+.Filters {
+    align-items: center;
+    display: flex;
+}
+
+.Filters__text {
+    display: inline-block;
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.Filters__wrapper {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Filters__filter {
+    align-items: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.Filters__cost {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.Filters__filter_gold {
+    background: linear-gradient(225deg, #F78E0E 0%, #F2D766 100%);
+}
+
+.Filters__filter_silver {
+    background: linear-gradient(225deg, #97989C 0%, #D2D2D2 100%)
+}
+
+.Filters__filter_bronze {
+    background: linear-gradient(225deg, #DD784E 0%, #BE774D 100%)
+}

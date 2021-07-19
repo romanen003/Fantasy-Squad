@@ -1,0 +1,52 @@
+.MyTeamTable {
+    width: 460px;
+    background-image: url("./img.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 45px;
+    background-position-y: 45px;
+    color: #FFFFFF;
+}
+
+.MyTeamTable__top {
+    display: flex;
+    justify-content: center;
+}
+
+.MyTeamTable__middle {
+    align-items: flex-end;
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+}
+
+.MyTeamTable__bottom {
+    display: flex;
+    margin-top: 82px;
+    justify-content: space-around;
+}
+
+.MyTeamTable__team {
+    text-align: center;
+}
+
+.MyTeamTable__teamName {
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.MyTeamTable__yourTeam {
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.4;
+    margin: 10px 0 0 0;
+}

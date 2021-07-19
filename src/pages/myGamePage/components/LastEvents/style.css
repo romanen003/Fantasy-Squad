@@ -1,0 +1,64 @@
+.LastEvents {
+
+}
+
+.LastEvents__header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.LastEvents__wrapper {
+    margin-top: 40px;
+}
+
+.LastEvents__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -10px -40px;
+    padding: 0;
+}
+
+.LastEvents__listItem {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    width: 25%;
+}
+
+.LastEvents__listItem:not(:nth-child(3n - 2)):before {
+    position: absolute;
+    left: -40px;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: rgba(237, 239, 241, 0.2);
+}
+
+.LastEvents__itemTime {
+    font-weight: normal;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.LastEvents__itemUsername {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.LastEvents__itemType {
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.6;
+    margin-right: 10px;
+}
+
+.LastEvents__points {
+    font-weight: 500;
+    font-size: 14px;
+}

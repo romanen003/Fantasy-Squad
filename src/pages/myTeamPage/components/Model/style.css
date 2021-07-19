@@ -1,0 +1,88 @@
+.Model {
+    display: inline-block;
+    height: 124px;
+    overflow: hidden;
+    text-align: left;
+    width: 120px;
+    position: relative;
+}
+
+.Model__round {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Model__round:hover > .Model__img {
+    opacity: 0.5;
+}
+.Model__round:hover > .Model_btn {
+    display: inline-block;
+}
+
+.Model_btn {
+    position: absolute;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background: #5B24A2;
+    display: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+}
+
+.Model__round_gold {
+    background: linear-gradient(225deg, #F78E0E 0%, #F2D766 100%);
+}
+
+.Model__round_silver {
+    background: linear-gradient(225deg, #97989C 0%, #D2D2D2 100%);
+}
+
+.Model__round_bronze {
+    background: linear-gradient(225deg, #DD784E 0%, #BE774D 100%)
+}
+
+.Model__round_white {
+    background: white;
+}
+
+.Model__img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Model_username {
+    font-family: Helvetica Neue, sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 10px;
+}
+
+.Model__costWrapper {
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 36px;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    right: 0;
+    top: 0;
+}
+
+.Model__status {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}

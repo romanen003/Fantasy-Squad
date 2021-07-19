@@ -1,0 +1,81 @@
+.MyGame {
+    display: flex;
+    height: calc(100vh - 64px);
+    margin: 0 auto;
+    max-width: 1680px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.MyGame__leftSide {
+    position: relative;
+    flex: 2;
+}
+
+.MyGame__leftSide:after {
+    content: '';
+    position: absolute;
+    background: #FFFFFF;
+    width: 1px;
+    top: -32px;
+    right: 0;
+    opacity: 0.1;
+    height: 100vh;
+}
+
+.MyGame__topBalance {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.MyGame__rightSide {
+    flex: 1;
+    position: relative;
+}
+
+.MyGame__saveGame {
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.MyGame__perform {
+    margin-right: 40px;
+}
+
+.MyGame__myTeam {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.MyGame__lastEvents {
+    position: relative;
+    margin-top: 46px;
+    padding-right: 40px;
+}
+
+.MyGame__lastEvents:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background: #EDEFF1;
+    opacity: 0.1;
+    top: 10px;
+}
+
+.MyGame__shareWrapper {
+    text-align: right;
+    padding: 40px 40px 0 40px;
+}
+
+.MyGame__shareBtn {
+    background: transparent;
+    font-size: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.MyTeamPage {
+    background: linear-gradient(90deg, #5B24A2 0%, #431B78 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.MyTeamPage__wrapper {
+    height: 100vh;
+    margin: 0 auto;
+    width: 1680px;
+}
+
+.MyTeamPage__side {
+    display: inline-block;
+    width: calc(50% - 80px);
+    padding: 40px 40px 0 40px;
+    vertical-align: top;
+    position: relative;
+}
+
+.MyTeamPage__side_right::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 1px;
+    background: #FFFFFF;
+    content: '';
+    opacity: 0.1;
+}
+
+.MyTeamPage__balance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MyTeamPage__squad {
+    padding: 40px 140px;
+}
+
+.MyTeamPage__play {
+    text-align: right;
+    margin-top: 140px;
+}
+
+.MyTeamPage__playBtn {
+    display: inline-block;
+    padding: 14px 48px;
+    background: linear-gradient(90deg, #5ACE5A 0%, #48A548 100%);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.MyTeamPage__playBtn:disabled {
+    opacity: 0.6;
+}

@@ -1,0 +1,49 @@
+.ModelsSearcher {}
+
+.ModelsSearcher__header {
+    color: #FFFFFF;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 125%;
+}
+
+.ModelsSearcher__inputWrapper {
+    display: flex;
+    margin-top: 32px;
+}
+
+.ModelsSearcher__input {
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 16px 24px;
+    width: 100%;
+    color: #898C97;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.ModelsSearcher__filters {
+    padding: 20px 0;
+}
+
+.ModelsSearcher__result {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ModelsSearcher__wrapperModel {
+    display: inline-block;
+    margin: 15px;
+}
+
+.ModelsSearcher_ResultMargins {
+    margin: -15px;
+}

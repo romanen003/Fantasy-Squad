@@ -1,0 +1,17 @@
+.Balance {
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    padding: 8px 10px;
+}
+
+.Balance__count {
+    color: #FFFFFF;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin-left: 10px;
+}
